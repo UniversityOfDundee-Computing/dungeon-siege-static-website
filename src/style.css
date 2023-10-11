@@ -43,5 +43,17 @@ li a{
     text-align: center;
     text-decoration: none;
     font-size: 2rem;
-    color: white;
+    color: #d3d6db;
+}
+
+li a:hover{
+    color: #303841;
+    background-color: #d3d6db;
+    border: 1px solid #303841;
+}
+
+.current{
+    color: #303841;
+    background-color: #d3d6db;
+    border: 1px solid #303841;
 }
