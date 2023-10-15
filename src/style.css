@@ -27,6 +27,20 @@ header{
     background-color: red;
 }
 
+.navbar-nav .nav-item .nav-link{
+    color: #d3d6db;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid #d3d6db;
+}
+/* 
+a:hover{
+    color: #303841;
+    background-color: #d3d6db;
+    border: 1px solid #303841;
+} */
+
 /* li a{
 
     padding: 2rem;
