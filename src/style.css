@@ -1,11 +1,29 @@
 html, body{
     margin: 0;
+    background-color: #be3144;
 }
 
 header{
     margin: 0;
     background-color: #3a4750;
 }
+
+/* .container{
+    max-width: 768px;
+}
+
+.float-center{
+    display: flow-root;
+    align-content: center;
+}
+
+.float-center > * {
+    float: 1;
+} */
+
+
+
+/* NAV BAR */
 
 #logo{
     padding: 2rem;
@@ -25,7 +43,6 @@ nav{
 
 nav ul{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -57,3 +74,4 @@ li a:hover{
     background-color: #d3d6db;
     border: 1px solid #303841;
 }
+
