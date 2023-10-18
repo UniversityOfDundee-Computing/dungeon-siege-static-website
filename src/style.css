@@ -86,3 +86,20 @@ header {
     color: 303841; */
 }
 
+/* CARDS */
+.card-custom{
+    border: 0;
+}
+
+.card-custom:hover{
+    background-color: #be3144;
+    color: white;
+}
+
+.card-custom img{
+    max-width: 15rem;
+    height: 5rem; 
+}
+
+
+
