@@ -1,52 +1,76 @@
-
-.bg{
+.bg {
     /* background-color: #be3144; */
 }
 
-header{
+header {
     background-color: #303841;
     padding: 0;
-} 
-
-h1, h2{
-    color: #be3144;;
 }
 
-.logo{
+/* h1, h2{
+    color: #be3144;;
+} */
+
+.logo {
     height: 3rem;
     width: auto;
 }
 
-.current{
+.current {
     color: #303841;
-    /* background-color: #d3d6db; */
     border-bottom: 2px solid #d3d6db;
 }
 
-.test{
-    background-color: rebeccapurple;
-}
-
-.test2{
-    background-color: red;
-}
-
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     color: #d3d6db;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
+.navbar-nav .nav-item .nav-link:hover {
     border-bottom: 2px solid #d3d6db;
 }
 
 /* INTRO */
 
-.row div{
+/* .row div{
     border: 2px solid red;
+} */
+
+.banner {
+    color: white;
+    background-color: #be3144;
 }
 
-.ver-banner{
-    background-color:#be3144;
+#intro-text {
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+
+}
+
+/* M */
+@media (max-width: 768px) {
+    #intro-text {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+}
+
+
+/* L */
+@media (max-width: 991px) {
+    #intro-text {
+        font-size: 3rem;
+    }
+}
+
+/* LG to XL */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #intro-text {
+        font-size: 4rem;
+
+    }
 }
 
 /* 
@@ -166,4 +190,3 @@ li a:hover{
     background-color: #d3d6db;
     border: 1px solid #303841;
 } */
-
