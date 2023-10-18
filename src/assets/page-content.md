@@ -6,23 +6,16 @@ Dungeon Siege was the first title by Gas Powered Games, which was founded in May
 
 The game was highly rated by critics upon release; it is listed by review aggregator Metacritic as the third-highest rated computer role-playing game of 2002. Critics praised the graphics and seamless world, as well as the fun and accessible gameplay, but were dismissive of the plot. Dungeon Siege sold over 1.7 million copies, and was nominated for the Computer Role-Playing Game of the Year award by the Academy of Interactive Arts & Sciences. Gas Powered Games emphasized creating and releasing tools for players to use in making mods for the game during development, which resulted in an active modding community after release. An expansion pack, Dungeon Siege: Legends of Aranna, was released in 2003, and a further series of games was developed in the franchise, consisting of Dungeon Siege II (2005) and its own expansion Dungeon Siege II: Broken World (2006), a spinoff PlayStation Portable game titled Dungeon Siege: Throne of Agony (2006), and a third main title, Dungeon Siege III (2011). A trilogy of movies, with the first loosely inspired by the plot of Dungeon Siege, were released as In the Name of the King: A Dungeon Siege Tale (2007, theaters), In the Name of the King 2: Two Worlds (2011, home video), and In the Name of the King 3: The Last Mission (2014, home video).
 
-
-Dungeon Siege
-Dungeon Siege Official video game box art
+/// TABLE ////
 Developer(s)	Gas Powered Games
-Publisher(s)	
-Microsoft (Windows)
-Destineer (Mac OS X)
+Publisher(s)	Microsoft (Windows), Destineer (Mac OS X)
 Producer(s)	Jacob McMahon
 Designer(s)	Chris Taylor
 Writer(s)	Neal Hallford
 Composer(s)	Jeremy Soule
-Platform(s)	
-Microsoft Windows
-Mac OS X
-Release	
-April 5, 2002 (Windows)
-May 2, 2003 (Mac OS X)
+Platform(s)	Microsoft Windows, Mac OS X
+
+Release	April 5, 2002 (Windows),May 2, 2003 (Mac OS X)
 Genre(s)	Action role-playing
 Mode(s)	Single-player, multiplayer
 
