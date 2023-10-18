@@ -77,6 +77,19 @@ header {
     }
 }
 
+.section{
+    background-color: #6c757d;
+}
+
+.bg-grey{
+    background-color: #d3d6db; 
+}
+
+.text-block{
+    /* background-color: #be3144; 
+    color: 303841; */
+}
+
 /* 
 a:hover{
     color: #303841;
