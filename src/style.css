@@ -8,6 +8,10 @@ header{
     padding: 0;
 } 
 
+h1, h2{
+    color: #be3144;;
+}
+
 .logo{
     height: 3rem;
     width: auto;
@@ -34,6 +38,17 @@ header{
 .navbar-nav .nav-item .nav-link:hover{
     border-bottom: 2px solid #d3d6db;
 }
+
+/* INTRO */
+
+.row div{
+    border: 2px solid red;
+}
+
+.ver-banner{
+    background-color:#be3144;
+}
+
 /* 
 a:hover{
     color: #303841;
