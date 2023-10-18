@@ -101,5 +101,11 @@ header {
     height: 5rem; 
 }
 
+.card-custom:hover img{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+
 
 
