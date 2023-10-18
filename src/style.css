@@ -1,5 +1,12 @@
-.bg {
-    /* background-color: #be3144; */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #be3144;
+    --text-color: #303841;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
 }
 
 header {
@@ -44,8 +51,6 @@ header {
     font-size: 5rem;
     margin: 0;
     padding: 0;
-
-
 }
 
 /* M */
