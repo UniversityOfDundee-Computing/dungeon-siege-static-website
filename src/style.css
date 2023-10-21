@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007bff;
+    --primary-color: #3a4750;
     --secondary-color: #6c757d;
     --accent-color: #be3144;
     --text-color: #303841;
@@ -7,16 +7,13 @@
 
 body{
     font-family: 'Libre Baskerville', serif;
+    
 }
 
 header {
     background-color: #303841;
     padding: 0;
 }
-
-/* h1, h2{
-    color: #be3144;;
-} */
 
 .logo {
     height: 3rem;
@@ -77,6 +74,7 @@ header {
     }
 }
 
+/* SECTONS */
 .section{
     background-color: #6c757d;
 }
