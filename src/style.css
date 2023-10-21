@@ -82,8 +82,15 @@ header {
 }
 
 .text-block{
-    /* background-color: #be3144; 
-    color: 303841; */
+    /* padding: 2rem;
+    background-color: #be3144; 
+    color: white; */
+}
+
+#gameplay .text-block{
+    padding: 2rem;
+    background-color: #be3144; 
+    color: white; 
 }
 
 /* CARDS */
