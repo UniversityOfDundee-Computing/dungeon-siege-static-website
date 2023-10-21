@@ -103,6 +103,11 @@ header {
     border: 0;
 }
 
+.card-custom p{
+    padding: 0;
+    margin: 0;
+}
+
 .card-custom:hover {
     background-color: #be3144;
     color: white;
@@ -116,6 +121,15 @@ header {
 .card-custom:hover img {
     filter: invert(100%);
     -webkit-filter: invert(100%);
+}
+
+.circle-border{
+    margin: 0;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #be3144;
+    color: white;
 }
 
 
@@ -145,3 +159,9 @@ header {
     width: 11px;
     content: "";
 }
+
+#ratings h3{
+    text-decoration:underline;
+}
+
+
