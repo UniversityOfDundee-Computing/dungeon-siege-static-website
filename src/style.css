@@ -5,12 +5,12 @@
     --text-color: #303841;
 }
 
-body{
+body {
     font-family: 'Libre Baskerville', serif;
-    
 }
 
-.bg-pattern{
+.bg-pattern {
+    background-color: none;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
     background-color: #be3144;
 }
 
-.banner h1{
+.banner h1 {
     word-wrap: break-word;
 }
 
@@ -78,46 +78,70 @@ header {
 }
 
 /* SECTONS */
-.section{
+.section {
     background-color: #6c757d;
 }
 
-.bg-grey{
-    background-color: #d3d6db; 
+.bg-grey {
+    background-color: #d3d6db;
 }
 
-.text-block{
+.text-block {
     /* padding: 2rem;
     background-color: #be3144; 
     color: white; */
 }
 
-#gameplay .text-block{
+#gameplay .text-block {
     padding: 2rem;
-    background-color: #be3144; 
-    color: white; 
-}
-
-/* CARDS */
-.card-custom{
-    border: 0;
-}
-
-.card-custom:hover{
     background-color: #be3144;
     color: white;
 }
 
-.card-custom img{
-    max-width: 15rem;
-    height: 5rem; 
+/* CARDS */
+.card-custom {
+    border: 0;
 }
 
-.card-custom:hover img{
+.card-custom:hover {
+    background-color: #be3144;
+    color: white;
+}
+
+.card-custom img {
+    max-width: 15rem;
+    height: 5rem;
+}
+
+.card-custom:hover img {
     filter: invert(100%);
     -webkit-filter: invert(100%);
 }
 
 
+/* https://mdbootstrap.com/docs/standard/extended/timeline/ */
 
+.timeline {
+    border-left: 1px solid #be3144;
+    position: relative;
+    list-style: none;
+}
 
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: #be3144;
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
