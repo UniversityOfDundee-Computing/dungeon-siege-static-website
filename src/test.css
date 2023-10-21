@@ -1,0 +1,11 @@
+.block{
+    background-color: red;
+}
+
+.test-border{
+    border: 3px solid red;
+}
+
+.test-block{
+    height: 20rem;
+}
