@@ -123,15 +123,6 @@ header {
     -webkit-filter: invert(100%);
 }
 
-.circle-border{
-    margin: 0;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    background-color: #be3144;
-    color: white;
-}
-
 
 /* https://mdbootstrap.com/docs/standard/extended/timeline/ */
 
@@ -161,7 +152,9 @@ header {
 }
 
 #ratings h3{
-    text-decoration:underline;
+    color: #be3144;
 }
 
-
+#ratings .card-custom:hover h3 {
+    color: white;
+}
