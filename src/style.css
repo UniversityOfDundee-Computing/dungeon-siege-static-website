@@ -43,6 +43,10 @@ header {
     background-color: #be3144;
 }
 
+.banner h1{
+    word-wrap: break-word;
+}
+
 #intro-text {
     font-size: 5rem;
     margin: 0;
