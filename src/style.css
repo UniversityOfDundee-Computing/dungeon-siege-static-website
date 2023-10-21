@@ -36,7 +36,7 @@ header {
     border-bottom: 2px solid #d3d6db;
 }
 
-/* INTRO */
+/* BANNER */
 
 .banner {
     color: white;
@@ -45,7 +45,10 @@ header {
 
 .banner h1 {
     word-wrap: break-word;
+    line-height: 1;
+    text-transform: uppercase;
 }
+
 
 #intro-text {
     font-size: 5rem;
