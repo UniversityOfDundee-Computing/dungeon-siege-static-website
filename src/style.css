@@ -9,9 +9,6 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-.bg-pattern {
-    background-color: none;
-}
 
 header {
     background-color: #303841;
@@ -42,6 +39,10 @@ header {
 section{
     margin-top: 10rem;
     margin-bottom: 10rem;
+}
+
+.section {
+    background-color: #6c757d;
 }
 
 /* BANNER */
@@ -88,19 +89,29 @@ section{
     }
 }
 
-/* SECTONS */
-.section {
-    background-color: #6c757d;
+/* BG */
+
+.bg{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
 }
 
 .bg-grey {
     background-color: #d3d6db;
 }
 
+.bg-dark-grey{
+    background-color: #3a4750;
+}
+
+.bg-red{
+    background-color: #be3144;
+}
+
+/* Components */
 .text-block {
-    /* padding: 2rem;
-    background-color: #be3144; 
-    color: white; */
+    padding: 2rem;
+    /* background-color: white;  */
+    color: white;
 }
 
 #gameplay .text-block {
