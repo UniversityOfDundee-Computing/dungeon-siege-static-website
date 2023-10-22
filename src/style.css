@@ -15,12 +15,17 @@ header {
     padding: 0;
 }
 
+footer{
+    height: 10rem;
+    background-color: #303841;
+}
+
+/* NAV */
+
 .logo {
     height: 3rem;
     width: auto;
 }
-
-/* NAV */
 
 .current {
     color: #303841;
@@ -110,7 +115,7 @@ section{
 /* Components */
 .text-block {
     padding: 2rem;
-    /* background-color: white;  */
+    /* background-color: #303841; */
     color: white;
 }
 
