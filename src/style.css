@@ -36,6 +36,12 @@ header {
     border-bottom: 2px solid #d3d6db;
 }
 
+/* SECTION */
+section{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 /* BANNER */
 
 .banner {
