@@ -1,4 +1,5 @@
 // var headerHeight;
+var currentNavElement;
 
 function scrollToElement(id) {
 
@@ -21,7 +22,19 @@ function addCustomScroll() {
         e.preventDefault();
         var id = el.getAttribute('href');
         scrollToElement(id);
+        changeNavBarCurrent(el);
     }))
+}
+
+function changeNavBarCurrent(el){
+
+    if(currentNavElement != null){
+        currentNavElement.classList.remove('current');
+    }
+
+    currentNavElement = el;
+    el.classList.add('current')
+    
 }
 
 window.onload = function(){

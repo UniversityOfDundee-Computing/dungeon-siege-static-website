@@ -23,6 +23,8 @@ header {
     width: auto;
 }
 
+/* NAV */
+
 .current {
     color: #303841;
     border-bottom: 2px solid #d3d6db;
