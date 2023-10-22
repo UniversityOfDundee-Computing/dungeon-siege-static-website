@@ -1,13 +1,15 @@
 // var headerHeight;
 var currentNavElement;
 
+var scrollOffset = '50';
+
 function scrollToElement(id) {
 
     id = id.replace('#', '');
 
     // Do Maths
     var headerHeight = document.getElementById("header").offsetHeight;
-    var target = document.getElementById(id).offsetTop - headerHeight;
+    var target = document.getElementById(id).offsetTop - headerHeight - scrollOffset;
 
     window.scrollTo({ top: target, behavior: 'smooth' });
 }
