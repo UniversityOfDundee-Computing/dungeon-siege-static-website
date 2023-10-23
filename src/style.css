@@ -34,7 +34,12 @@ footer{
 
 .navbar-nav .nav-item .nav-link {
     color: #d3d6db;
+    /* border-bottom: 2px solid #303841; */
 }
+
+/* .nav-link{
+       border-bottom: 2px solid #303841;
+} */
 
 .navbar-nav .nav-item .nav-link:hover {
     border-bottom: 2px solid #d3d6db;
@@ -97,7 +102,9 @@ section{
 /* BG */
 
 .bg{
-    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    background-color: #434343;
+    /* https://gradients.shecodes.io/gradients/821 */
+    background: linear-gradient(to top, #434343 0%, black 100%);
 }
 
 .bg-grey {
