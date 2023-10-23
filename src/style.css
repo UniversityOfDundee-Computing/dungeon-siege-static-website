@@ -119,6 +119,7 @@ section{
 /* Components */
 .text-block {
     padding: 2rem;
+    min-height: 25rem;
     /* background-color: #303841; */
     color: white;
 }
