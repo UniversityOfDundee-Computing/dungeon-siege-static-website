@@ -167,22 +167,27 @@ section{
 }
 
 .card-custom:hover img {
-    /* filter: invert(100%);
-    -webkit-filter: invert(100%); */
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.card-custom:hover {
+    background-color:#be3144;
+    color: white;
 }
 
 #reception .card-custom {
-    /* max-width: 12rem; */
     max-width: 20rem;
     border: 0;
-    /* background-color: transparent;
-    color: white; */
+    background-color: transparent;
+    color: white;
 }
 
 #reception .card-custom img{
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    margin-bottom: 1rem;
 }
 
 #reception .card-custom h3{
@@ -190,9 +195,8 @@ section{
 }
 
 #reception .card-custom:hover img {
-    color: white;
-    /* filter: invert(100%);
-    -webkit-filter: invert(100%); */
+    filter: invert(0%);
+    -webkit-filter: invert(0%);
 }
 
 /* https://mdbootstrap.com/docs/standard/extended/timeline/ */
