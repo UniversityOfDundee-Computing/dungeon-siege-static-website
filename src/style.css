@@ -135,6 +135,8 @@ section{
 /* CARDS */
 .card-custom {
     border: 0;
+    background-color: white;
+    /* color: white; */
 }
 
 .card-custom p{
@@ -147,9 +149,21 @@ section{
     color: white;
 }
 
+
 .card-custom img {
     max-width: 15rem;
     height: 5rem;
+
+    /* filter: invert(100%);
+    -webkit-filter: invert(100%); */
+}
+
+.card-custom h5{
+    color: #be3144;
+}
+
+.card-custom:hover h5 {
+    color: white;
 }
 
 .card-custom:hover img {
