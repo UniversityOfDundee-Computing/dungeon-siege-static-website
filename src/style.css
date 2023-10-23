@@ -135,8 +135,8 @@ section{
 /* CARDS */
 .card-custom {
     border: 0;
-    background-color: white;
-    /* color: white; */
+    /* background-color: transparent;
+    color: white; */
 }
 
 .card-custom p{
@@ -163,6 +163,7 @@ section{
 }
 
 .card-custom:hover h5 {
+    background-color: #be3144;
     color: white;
 }
 
