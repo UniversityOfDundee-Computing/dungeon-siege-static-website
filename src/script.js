@@ -43,10 +43,10 @@ function changeNavBarCurrent(el) {
 }
 
 // https://bobbyhadz.com/blog/load-html-page-in-a-div-using-javascript
-function loadPage() {
-    const box = document.getElementById('gameplay');
+function loadPage(file, intoID) {
+    const box = document.getElementById(intoID);
 
-    fetch('gameplay.html')
+    fetch(file)
         .then(response => response.text())
         .then(html => {
             box.innerHTML = html;
@@ -59,7 +59,8 @@ function loadPage() {
 window.onload = function () {
     // headerHeight = document.getElementById("header").offsetHeight;
     addCustomScroll();
-    loadPage();
+    loadPage('about.html', 'about');
+    loadPage('gameplay.html', 'gameplay');
 }
 
 
