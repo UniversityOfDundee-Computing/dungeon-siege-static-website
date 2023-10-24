@@ -17,8 +17,20 @@ header {
 
 footer{
     /* height: 10rem; */
+    color: #d3d6db;
     background-color: #303841;
 }
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #be3144;
+}
+
+
 
 /* NAV */
 
