@@ -63,6 +63,7 @@ window.onload = function () {
     loadPage('gameplay.html', 'gameplay');
     loadPage('plot.html', 'plot');
     loadPage('development.html', 'development');
+    loadPage('reception.html', 'reception');
 }
 
 
