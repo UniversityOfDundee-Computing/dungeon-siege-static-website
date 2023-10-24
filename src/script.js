@@ -64,6 +64,7 @@ window.onload = function () {
     loadPage('plot.html', 'plot');
     loadPage('development.html', 'development');
     loadPage('reception.html', 'reception');
+    loadPage('legacy.html', 'legacy');
 }
 
 
