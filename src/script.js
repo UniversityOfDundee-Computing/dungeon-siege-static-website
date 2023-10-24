@@ -33,6 +33,9 @@ function changeNavBarCurrent(el){
     if(currentNavElement != null){
         currentNavElement.classList.remove('current');
     }
+    else{
+        document.getElementsByClassName('not-current')[0].classList.remove('not-current');
+    }
 
     currentNavElement = el;
     el.classList.add('current')
