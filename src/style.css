@@ -63,8 +63,8 @@ section{
     word-wrap: break-word;
     line-height: 1;
     text-transform: uppercase;
+    margin: 0;
 }
-
 
 #intro-text {
     font-size: 5rem;
