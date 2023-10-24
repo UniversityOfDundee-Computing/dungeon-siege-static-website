@@ -62,6 +62,7 @@ window.onload = function () {
     loadPage('about.html', 'about');
     loadPage('gameplay.html', 'gameplay');
     loadPage('plot.html', 'plot');
+    loadPage('development.html', 'development');
 }
 
 
