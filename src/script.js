@@ -42,10 +42,11 @@ function changeNavBarCurrent(el) {
 
 }
 
+// https://bobbyhadz.com/blog/load-html-page-in-a-div-using-javascript
 function loadPage() {
-    const box = document.getElementById('box');
+    const box = document.getElementById('gameplay');
 
-    fetch('home.html')
+    fetch('gameplay.html')
         .then(response => response.text())
         .then(html => {
             box.innerHTML = html;
