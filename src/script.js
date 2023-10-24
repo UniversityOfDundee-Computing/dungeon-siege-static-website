@@ -28,21 +28,38 @@ function addCustomScroll() {
     }))
 }
 
-function changeNavBarCurrent(el){
+function changeNavBarCurrent(el) {
 
-    if(currentNavElement != null){
+    if (currentNavElement != null) {
         currentNavElement.classList.remove('current');
     }
-    else{
+    else {
         document.getElementsByClassName('not-current')[0].classList.remove('not-current');
     }
 
     currentNavElement = el;
     el.classList.add('current')
-    
+
 }
 
-window.onload = function(){
+function loadPage() {
+    const box = document.getElementById('box');
+
+    fetch('home.html')
+        .then(response => response.text())
+        .then(html => {
+            box.innerHTML = html;
+        })
+        .catch(error => {
+            console.log(error);
+        });
+}
+
+window.onload = function () {
     // headerHeight = document.getElementById("header").offsetHeight;
     addCustomScroll();
+    loadPage();
 }
+
+
+
