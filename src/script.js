@@ -61,6 +61,7 @@ window.onload = function () {
     addCustomScroll();
     loadPage('about.html', 'about');
     loadPage('gameplay.html', 'gameplay');
+    loadPage('plot.html', 'plot');
 }
 
 
