@@ -3,6 +3,7 @@ var currentNavElement;
 
 var scrollOffset = '50';
 
+// Scrolls to element of id
 function scrollToElement(id) {
 
     id = id.replace('#', '');
@@ -14,6 +15,7 @@ function scrollToElement(id) {
     window.scrollTo({ top: target, behavior: 'smooth' });
 }
 
+// Add custom scroll event listiner to all nav link elements
 function addCustomScroll() {
 
     // Find all nav-links
@@ -28,6 +30,7 @@ function addCustomScroll() {
     }))
 }
 
+// Change to indicate the new current active nav link
 function changeNavBarCurrent(el) {
 
     if (currentNavElement != null) {
@@ -43,6 +46,7 @@ function changeNavBarCurrent(el) {
 }
 
 // https://bobbyhadz.com/blog/load-html-page-in-a-div-using-javascript
+// Load HTML file <body> into div by ID
 function loadPage(file, intoID) {
     const box = document.getElementById(intoID);
 
