@@ -43,34 +43,6 @@ footer img:hover {
     -webkit-filter: invert(0%); */
 }
 
-
-
-/* NAV */
-
-.logo {
-    height: 3rem;
-    width: auto;
-}
-
-.current {
-    color: #303841;
-    border-bottom: 2px solid #d3d6db;
-}
-
-.not-current {
-    border-bottom: 2px solid #303841;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: #d3d6db;
-    /* border-bottom: 2px solid #303841; */
-}
-
-
-.navbar-nav .nav-item .nav-link:hover {
-    border-bottom: 2px solid #d3d6db;
-}
-
 /* SECTION */
 section {
     margin-top: 10rem;
@@ -130,7 +102,7 @@ section {
 /* BG */
 
 .bg {
-    background-color: #434343;
+    /* background-color: #434343; */
     /* https://gradients.shecodes.io/gradients/821 */
     background: linear-gradient(to top, #434343 0%, black 100%);
 }

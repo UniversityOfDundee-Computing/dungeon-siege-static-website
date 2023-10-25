@@ -1,0 +1,21 @@
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+.current {
+    color: #303841;
+    border-bottom: 2px solid #d3d6db;
+}
+
+.not-current {
+    border-bottom: 2px solid #303841;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #d3d6db;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #d3d6db;
+}
