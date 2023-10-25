@@ -13,6 +13,10 @@ section > section{
     background-color: #6c757d;
 }
 
+footer section{
+    margin-bottom: 0;
+}
+
 /* BANNER */
 
 .banner {
