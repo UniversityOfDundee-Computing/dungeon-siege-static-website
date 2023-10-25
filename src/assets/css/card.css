@@ -1,7 +1,7 @@
 .card-custom {
     border: 0;
-    /* background-color: transparent;
-    color: white; */
+    background-color: transparent;
+    color: white;
 }
 
 .card-custom p {
@@ -17,6 +17,8 @@
 .card-custom img {
     max-width: 15rem;
     height: 5rem;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 .card-custom:hover img {
@@ -44,6 +46,8 @@
     max-height: 100%;
     object-fit: contain;
     margin-bottom: 1rem;
+    filter: invert(0%);
+    -webkit-filter: invert(0%);
 }
 
 #reception .card-custom h3 {
