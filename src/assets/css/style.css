@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #3a4750;
+    --secondary-color: #6c757d;
+    --accent-color: #be3144;
+    --text-color: #303841;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    background-color: #303841;
+    padding: 0;
+}
+
+footer {
+    color: #d3d6db;
+    background-color: #303841;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #be3144;
+}
+
+footer img {
+
+    width: 2rem;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+footer img:hover {
+
+    /* filter: invert(0%);
+    -webkit-filter: invert(0%); */
+}
+
+/* BG */
+
+.bg {
+    /* https://gradients.shecodes.io/gradients/821 */
+    background: linear-gradient(to top, #434343 0%, black 100%);
+}
+
+.bg-grey {
+    background-color: #d3d6db;
+}
+
+.bg-dark-grey {
+    background-color: #3a4750;
+}
+
+.bg-red {
+    background-color: #be3144;
+}
