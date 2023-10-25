@@ -2,7 +2,6 @@
     border: 0;
     /* background-color: transparent;
     color: white; */
-    /* width: 15rem; */
 }
 
 .card-custom p {
@@ -30,7 +29,6 @@
 }
 
 .card-custom:hover h5 {
-    background-color: #be3144;
     color: white;
 }
 
