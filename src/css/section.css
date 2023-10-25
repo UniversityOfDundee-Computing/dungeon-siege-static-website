@@ -4,6 +4,11 @@ section {
     margin-bottom: 10rem;
 }
 
+section > section{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .section {
     background-color: #6c757d;
 }
