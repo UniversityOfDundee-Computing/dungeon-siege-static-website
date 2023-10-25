@@ -9,14 +9,12 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-
 header {
     background-color: #303841;
     padding: 0;
 }
 
 footer {
-    /* height: 10rem; */
     color: #d3d6db;
     background-color: #303841;
 }
@@ -43,66 +41,9 @@ footer img:hover {
     -webkit-filter: invert(0%); */
 }
 
-/* SECTION */
-section {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.section {
-    background-color: #6c757d;
-}
-
-/* BANNER */
-
-.banner {
-    color: white;
-    background-color: #be3144;
-}
-
-.banner h2 {
-    word-wrap: break-word;
-    line-height: 1;
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 2.5rem;
-    font-family: 'Rubik', serif;
-}
-
-#intro-text {
-    font-size: 5rem;
-    margin: 0;
-    padding: 0;
-}
-
-/* M */
-@media (max-width: 768px) {
-    #intro-text {
-        font-size: 1rem;
-    }
-}
-
-
-/* L */
-@media (max-width: 991px) {
-    #intro-text {
-        font-size: 3rem;
-    }
-}
-
-/* LG to XL */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-    #intro-text {
-        font-size: 4rem;
-
-    }
-}
-
 /* BG */
 
 .bg {
-    /* background-color: #434343; */
     /* https://gradients.shecodes.io/gradients/821 */
     background: linear-gradient(to top, #434343 0%, black 100%);
 }
@@ -117,26 +58,4 @@ section {
 
 .bg-red {
     background-color: #be3144;
-}
-
-/* Components */
-.text-block {
-    padding: 2rem;
-    min-height: 25rem;
-    /* background-color: #303841; */
-    color: white;
-}
-
-#gameplay .text-block {
-    padding: 2rem;
-    background-color: #be3144;
-    color: white;
-}
-
-#ratings h3 {
-    color: #be3144;
-}
-
-#ratings .card-custom:hover h3 {
-    color: white;
 }
