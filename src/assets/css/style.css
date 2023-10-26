@@ -29,16 +29,13 @@ footer a:hover {
 }
 
 footer img {
-
     width: 2rem;
     filter: invert(100%);
     -webkit-filter: invert(100%);
 }
 
 footer img:hover {
-
-    /* filter: invert(0%);
-    -webkit-filter: invert(0%); */
+    transform: scale(1.2);
 }
 
 /* BG */
