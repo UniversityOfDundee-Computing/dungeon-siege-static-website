@@ -6,7 +6,7 @@ The goal of this project was to create a webpage for a game using content from t
 
 ## Features
 
-The website consists of a single webpage with multiple navigable sections.
+The website consists of a single webpage with multiple navigable sections via the navigation bar.
 
 Sections include:
 
@@ -18,12 +18,13 @@ Sections include:
 - Reception
 - Legacy
 
-## Notable Features (For marker)
+## Notable Features
 
 - Bootstrap
 - Custom Javascript:
     - Scroll towards section
     - Consider height of header when scrolling
-    - Update navbar (how show current section)
+    - Update navbar (highlight current section)
     - Add event listeners to nav links
 - Unnecessarily complex headings
+- Load multiple html files into appropriate sections in index.html
