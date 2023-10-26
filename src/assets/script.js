@@ -63,12 +63,12 @@ function loadPage(file, intoID) {
 window.onload = function () {
     // headerHeight = document.getElementById("header").offsetHeight;
     addCustomScroll();
-    loadPage('about.html', 'about');
-    loadPage('gameplay.html', 'gameplay');
-    loadPage('plot.html', 'plot');
-    loadPage('development.html', 'development');
-    loadPage('reception.html', 'reception');
-    loadPage('legacy.html', 'legacy');
+    // loadPage('about.html', 'about');
+    // loadPage('gameplay.html', 'gameplay');
+    // loadPage('plot.html', 'plot');
+    // loadPage('development.html', 'development');
+    // loadPage('reception.html', 'reception');
+    // loadPage('legacy.html', 'legacy');
 }
 
 
