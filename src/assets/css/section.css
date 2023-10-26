@@ -68,11 +68,20 @@ footer section{
     color: white;
 }
 
+.margin-y-lg{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 #gameplay .text-block {
     padding: 2rem;
     background-color: #be3144;
     color: white;
 }
+
+/* #ratings {
+    margin-top: 10rem;
+} */
 
 #ratings h3 {
     color: #be3144;
