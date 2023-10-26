@@ -27,4 +27,4 @@ Sections include:
     - Update navbar (highlight current section)
     - Add event listeners to nav links
 - Unnecessarily complex headings
-- Load multiple html files into appropriate sections in index.html
+<!-- - Load multiple html files into appropriate sections in index.html -->
