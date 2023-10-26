@@ -47,18 +47,18 @@ function changeNavBarCurrent(el) {
 
 // https://bobbyhadz.com/blog/load-html-page-in-a-div-using-javascript
 // Load HTML file <body> into div by ID
-function loadPage(file, intoID) {
-    const box = document.getElementById(intoID);
+// function loadPage(file, intoID) {
+//     const box = document.getElementById(intoID);
 
-    fetch(file)
-        .then(response => response.text())
-        .then(html => {
-            box.innerHTML = html;
-        })
-        .catch(error => {
-            console.log(error);
-        });
-}
+//     fetch(file)
+//         .then(response => response.text())
+//         .then(html => {
+//             box.innerHTML = html;
+//         })
+//         .catch(error => {
+//             console.log(error);
+//         });
+// }
 
 window.onload = function () {
     // headerHeight = document.getElementById("header").offsetHeight;
