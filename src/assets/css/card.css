@@ -61,4 +61,5 @@
 #reception .card-custom:hover img {
     filter: invert(0%);
     -webkit-filter: invert(0%);
+    transform: scale(1.2);
 }
