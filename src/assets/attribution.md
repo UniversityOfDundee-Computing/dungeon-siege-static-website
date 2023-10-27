@@ -20,7 +20,7 @@ game_informer_logo - https://logos.fandom.com/wiki/Game_Informer?file=GameInform
 
 game_pro_logo - https://en.m.wikipedia.org/wiki/File:GamePro_logo.png
 
-IGN_logo - https://en.m.wikipedia.org/wiki/File:IGN_logo.svg
+IGN_logo - https://seeklogo.com/vector-logo/307041/ign-imagine-games-network
 
 pc_gamer_logo - https://upload.wikimedia.org/wikipedia/commons/8/87/PC_Gamer_logo_%282015-present%29.svg
 
