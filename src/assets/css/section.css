@@ -1,0 +1,92 @@
+/* SECTION */
+section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+section > section{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section {
+    background-color: #6c757d;
+}
+
+footer section{
+    margin-bottom: 0;
+}
+
+/* BANNER */
+
+.banner {
+    color: white;
+    background-color: #be3144;
+}
+
+.banner h2 {
+    word-wrap: break-word;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Rubik', serif;
+}
+
+/* Intro Text */
+#intro-text {
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* M */
+@media (max-width: 768px) {
+    #intro-text {
+        font-size: 1rem;
+    }
+}
+
+/* L */
+@media (max-width: 991px) {
+    #intro-text {
+        font-size: 3rem;
+    }
+}
+
+/* LG to XL */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #intro-text {
+        font-size: 4rem;
+    }
+}
+
+
+/* Components */
+.text-block {
+    padding: 2rem;
+    color: white;
+}
+
+.margin-y-lg{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#gameplay .text-block {
+    padding: 2rem;
+    background-color: #be3144;
+    color: white;
+}
+
+/* #ratings {
+    margin-top: 10rem;
+} */
+
+#ratings h3 {
+    color: #be3144;
+}
+
+#ratings .card-custom:hover h3 {
+    color: white;
+}

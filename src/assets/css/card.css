@@ -1,0 +1,62 @@
+.card-custom {
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.card-custom p {
+    padding: 0;
+    margin: 0;
+}
+
+.card-custom:hover {
+    background-color: #be3144;
+    color: white;
+}
+
+.card-custom img {
+    max-width: 15rem;
+    height: 5rem;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.card-custom h5 {
+    color: #be3144;
+}
+
+.card-custom:hover h5 {
+    color: white;
+}
+
+#reception .card-custom {
+    max-width: 20rem;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+#reception .card-custom img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    filter: invert(0%);
+    -webkit-filter: invert(0%);
+}
+
+#reception .card-custom h3 {
+    color: white;
+    font-weight: bold;
+}
+
+#reception .card-custom:hover .card-title{
+    color: #be3144;
+}
+
+#reception .card-custom:hover img {
+    filter: invert(0%);
+    -webkit-filter: invert(0%);
+    transform: scale(1.2);
+}

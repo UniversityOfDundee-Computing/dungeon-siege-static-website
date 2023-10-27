@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #3a4750;
+    --secondary-color: #6c757d;
+    --accent-color: #be3144;
+    --text-color: #303841;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    background-color: #303841;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+footer {
+    color: #d3d6db;
+    background-color: #303841;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #be3144;
+}
+
+footer img {
+    width: 2rem;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+/* BG */
+
+.bg {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000 0%, #222222 74%);
+}
+
+.bg-grey {
+    background-color: #d3d6db;
+}
+
+.bg-dark-grey {
+    background-color: #3a4750;
+}
+
+.bg-red {
+    background-color: #be3144;
+}
