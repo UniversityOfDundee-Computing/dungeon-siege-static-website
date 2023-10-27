@@ -48,6 +48,11 @@
 
 #reception .card-custom h3 {
     color: white;
+    font-weight: bold;
+}
+
+#reception .card-custom:hover .card-title{
+    color: #be3144;
 }
 
 #reception .card-custom:hover img {
