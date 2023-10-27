@@ -18,13 +18,39 @@ Sections include:
 - Reception
 - Legacy
 
+Components:
+
+- Banner
+- Text Block
+- About Card
+- Rating Card
+- NavBar
+- Footer
+- Time Line
+- Icons
+
+
 ## Notable Features
 
-- Bootstrap
+- Intro section animate into view.
+
+- Collapsible navbar.
+- When scrolling via navbar, intentionally takes size of header into account (collapsible one too).
+
+- Banner heading text being vertical in large screen size.
+- Banner headings text being horizontal in smaller screen size.
+- Banners change (become horizontal) in small screen size.
+
+- Sections follow same format (banner then content) in small screen size.
+
+- On hover about/rating cards.
+- Rating cards being links.
+
+- Gameplay content follows same format (img then text) in small screen size.
+- Bootstrap used.
 - Custom Javascript:
-    - Scroll towards section
-    - Consider height of header when scrolling
-    - Update navbar (highlight current section)
-    - Add event listeners to nav links
-- Unnecessarily complex headings
-<!-- - Load multiple html files into appropriate sections in index.html -->
+    - Scroll towards section.
+    - Consider height of header when scrolling.
+    - Update navbar (highlight current section).
+    - Add event listeners to nav links.
+- Unnecessarily complex headings.
