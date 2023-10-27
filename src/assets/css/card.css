@@ -12,9 +12,6 @@
 .card-custom:hover {
     background-color: #be3144;
     color: white;
-
-    background-color: white;
-    color: #303841;
 }
 
 .card-custom img {
@@ -24,18 +21,12 @@
     -webkit-filter: invert(100%);
 }
 
-.card-custom:hover img {
-    filter: invert(0%);
-    -webkit-filter: invert(0%);
-}
-
 .card-custom h5 {
     color: #be3144;
 }
 
 .card-custom:hover h5 {
     color: white;
-    color: #be3144;
 }
 
 #reception .card-custom {
