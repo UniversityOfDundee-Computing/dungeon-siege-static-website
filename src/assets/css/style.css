@@ -43,8 +43,8 @@ footer img:hover {
 /* BG */
 
 .bg {
-    /* https://gradients.shecodes.io/gradients/821 */
-    background: linear-gradient(to top, #434343 0%, black 100%);
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000 0%, #222222 74%);
 }
 
 .bg-grey {
